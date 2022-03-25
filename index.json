@@ -1,0 +1,15 @@
+{
+  "recipes": {
+    "jcd/windu": [
+      "1.0"
+    ]
+  },
+  "branch": "master",
+  "version": "1.0",
+  "is_contrib": false,
+  "_links": {
+    "repository": "github.com/windubundle/windu-recipes.git",
+    "origin_template": "jcd/windu:dev-master@github.com/windubundle/windu-recipes:master",
+    "recipe_template": "https://api.github.com/repos/windubundle/windu-recipes/contents/jcd.windu.dev-master.json"
+  }
+}

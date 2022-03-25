@@ -1,0 +1,3 @@
+windu_routes:
+      resource: .
+      type: windu_extra

@@ -1,0 +1,28 @@
+{
+  "manifests": {
+    "jcd/windu": {
+      "manifest": {
+        "bundles": {
+          "Windu\\AdminBundle\\WinduAdminBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "files": {
+        "config/routes/windu_admin.yaml": {
+          "contents": [
+            "windu_routes:",
+            "    resource: .",
+            "    type: windu_extra",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "652c5b0aba2a1a941a53de7c26d15ff1a4361be4"
+    }
+  }
+}
